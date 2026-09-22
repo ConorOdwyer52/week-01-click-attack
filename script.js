@@ -4,7 +4,7 @@ const scoreDisplay = document.getElementById("score");
 const title = document.getElementById("title");
 const attackButton = document.getElementById("attackButton");
 const resetButton = document.getElementById("resetButton");
-const powerButton = document.createElement("button");
+const powerButton = document.getElementById("powerButton");
 
 // TODO: create addPoint()
 function addPoint() {
